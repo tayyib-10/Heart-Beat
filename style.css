@@ -1,0 +1,42 @@
+img {
+  width: 600px;
+  animation: Pulsate 1s infinite;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@keyframes Pulsate
+    {
+      0%
+      {
+        transform: scale( .75 );
+        
+      }
+      20%
+      {
+        transform: scale( 1 );
+      }
+      40%
+      {
+        transform: scale( .75 );
+        
+      }
+       60%
+      {
+        transform: scale( 1 );
+      }
+        80%
+      {
+        transform: scale(.75);
+      }
+       100%
+      {
+        transform: scale( 1 );
+        
+      }
+    }
+    
